@@ -29,13 +29,16 @@ def generator():
    yield 3
 ```
 ```python
-g = gen()
+g = generator()
 print(type(g)) #class generator
 n = next(g)
 n = next(g)
 n = next(g)
 ```
 ```python
-for x in gen():
+for x in generator():
     print(x)
 ```
+
+### Refer to
+* http://pythonstudy.xyz/python/article/23-Iterator%EC%99%80-Generator
